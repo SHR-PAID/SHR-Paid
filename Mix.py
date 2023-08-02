@@ -1673,7 +1673,7 @@ def chk():
             Picchi = input('Key Send : ')
             url_wa = "https://api.whatsapp.com/send?phone=+959676429641&text="
             tks = ("Sir I am Premium user please approve me! \n My Key Sir : "+Xyteee)
-            subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
+            subprocess.check_output(["am", "start", url_wa+(tks)]);
             print('_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_\n Run again with permission from admin')
             menu()
     except:
